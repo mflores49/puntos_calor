@@ -1,0 +1,39 @@
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003366;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+#header img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+    
+    @media(max-width:768px){
+        header {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    
+    
+    body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    }
+    
+    
+    #map{
+        width: 100%;
+        height: calc(100% - 82px);
+        border-style: solid;     
+    
+    }
